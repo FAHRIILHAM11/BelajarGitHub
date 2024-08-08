@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "f194d805bceb876e",
@@ -148,9 +149,17 @@
   },
   "active": "d045c6a3b5e8d4ef",
   "lastOpenFiles": [
+    "Pasted image 20240807020603.png",
+    "asset/up10.PNG",
+    "Pasted image 20240807020353.png",
+    "asset/up9.PNG",
+    "asset/up8.PNG",
+    "asset/up7.PNG",
+    "asset/up6.PNG",
+    "asset/up5.PNG",
+    "asset/up4.PNG",
     "asset/up3.PNG",
     "asset/up2.PNG",
-    "asset/up1.PNG",
     "BASIS DATA.md"
   ]
 }

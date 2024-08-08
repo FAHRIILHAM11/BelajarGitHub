@@ -89,3 +89,36 @@
 
 9. stelah mengikuti tahapnya makan repository selesai dibuat.
 ## UPLOAD FOLDER OBSIDIAN KE GIT HUB
+1. pertama kalian masuk dipencarian dan ketik *CMD* atau kalian bisa juga menggunakan *Windows + R* agar dapat masuk di CMD.
+![](asset/up1.png)
+
+2. Lalu kalian klik *OK*, Lalu berikutnya kalian ketikkan lokasi *FOLDER PROJEK* anda tersimpan dimana lalu ENTER.
+![](asset/up2.png)
+
+3. Lalu kalian ketikkan **`git init`** Perintah ini digunakan untuk menginisialisasi repository Git baru di direktori proyek yang saat ini sedang digunakan. Ini akan membuat subdirektori baru bernama `.git` yang berisi semua file metadata repository.
+![](asset/up3.png)
+
+4. Lalu ketikkan **`git add .`** Perintah ini digunakan untuk menambahkan semua perubahan yang ada di direktori kerja (termasuk file baru, file yang diubah, dan file yang dihapus) ke dalam staging area, sehingga siap untuk di-commit pada tahap selanjutnya.
+![](asset/up4.png)
+
+5. **`git commit -m "perubahan-1"`**: Perintah ini digunakan untuk menyimpan snapshot dari semua perubahan yang ada di staging area ke dalam repository lokal. Teks di dalam tanda kutip (`"perubahan-1"`) adalah pesan commit yang menjelaskan perubahan apa saja yang dilakukan dalam commit tersebut.
+![](asset/up5.png)
+
+6. **`git remote add origin https://github.com/FAHRIILHAM11/FahriAjaa.git`**: Perintah ini digunakan untuk menambahkan URL repository remote (dalam hal ini, repository GitHub) dengan nama alias `origin`. Setelah menambahkan remote, Anda dapat mengirim (push) perubahan dari repository lokal Anda ke repository remote di GitHub.
+![](asset/up6.png)
+
+7. **`git status`**: Perintah ini digunakan untuk menampilkan status dari repository lokal Anda. Ini akan menunjukkan informasi seperti file yang telah dimodifikasi, file yang telah ditambahkan ke staging area, dan branch mana yang sedang aktif.
+![](asset/up7.png)
+
+8. **`git branch -M master`**: Perintah ini digunakan untuk mengubah nama branch saat ini menjadi `master`. Pada versi Git terbaru, penggunaan `-M` digunakan untuk memindahkan branch dan mengubah namanya sekaligus. Dalam konteks ini, `master` adalah nama branch yang diubah.
+![](asset/up8.png)
+
+9. Perintah `git push -u origin master` digunakan untuk mengirim (push) semua perubahan dari branch lokal `master` ke branch `master` di repository remote (`origin`) di GitHub atau repository Git lainnya.
+- `git push`: Mengirim perubahan lokal ke repository remote.
+- `-u origin master`: Parameter `-u` atau `--set-upstream` digunakan untuk menetapkan branch lokal (`master` dalam hal ini) sebagai branch default untuk branch remote (`origin/master`). Setelah ini, Anda dapat menggunakan `git push` tanpa argumen untuk branch dan repository yang sama.
+![](asset/up9.png)
+
+10. setelah kalian `git push -u origin master` kalian masuk ke GitHub anda dan repres dan seluruh isi folder projek akan tampil di repository github.
+![](asset/up10.png)
+
+11. Setelah anda melakukan tahap-tahapnya maka kalian sudah berhasil menguploadnya ke GitHub.
